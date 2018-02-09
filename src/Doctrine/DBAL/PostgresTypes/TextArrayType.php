@@ -73,7 +73,7 @@ class TextArrayType extends Type
      */
     public function getName()
     {
-        return 'text_array';
+        return 'TextArray';
     }
 
     /**
