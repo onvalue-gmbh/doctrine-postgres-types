@@ -45,7 +45,7 @@ class IntArrayType extends Type
      */
     public function getName()
     {
-        return 'int_array';
+        return 'IntArray';
     }
 
     /**
@@ -53,6 +53,6 @@ class IntArrayType extends Type
      */
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
-        return '_int4';
+        return 'int4';
     }
 }
