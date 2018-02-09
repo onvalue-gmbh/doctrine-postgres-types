@@ -3,8 +3,6 @@ Provides Common Postgres Types for Doctrine
 
 Provides Doctrine Type classes for common postgres types
 
-### Installation
-
 ### Usage
 
 #### Using with Symfony2 Doctrine Configuration
