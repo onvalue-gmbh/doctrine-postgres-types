@@ -9,6 +9,7 @@ Provides Doctrine Type classes for common postgres types
 
 #### Using with Symfony2 Doctrine Configuration
 
+```
     # Doctrine Configuration
     doctrine:
         dbal:
@@ -18,13 +19,16 @@ Provides Doctrine Type classes for common postgres types
             mapping_types:
                 _text: text_array
                 _int4: int_array
+```
 
 #### Using with Doctrine
 
+```
     <?php
 
     use Doctrine\DBAL\Types\Type;
 
     Type::addType('text_array', "Doctrine\\DBAL\\PostgresTypes\\TextArrayType");
     Type::addType('int_array', "Doctrine\\DBAL\\PostgresTypes\\IntArrayType");
+```
 
