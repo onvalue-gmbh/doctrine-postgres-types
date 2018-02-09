@@ -50,6 +50,6 @@ class RealArrayType extends Type
      */
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
-        return 'real[]';
+        return '_real';
     }
 }

@@ -53,6 +53,6 @@ class IntArrayType extends Type
      */
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
-        return 'int4';
+        return '_int4';
     }
 }
