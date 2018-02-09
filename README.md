@@ -20,6 +20,7 @@ Provides Doctrine Type classes for common postgres types
             mapping_types:
                 _text: text_array
                 _int4: int_array
+                _readl: real_array
 ```
 
 #### Using with Doctrine
