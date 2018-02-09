@@ -16,6 +16,7 @@ Provides Doctrine Type classes for common postgres types
             types:
                 text_array: "Doctrine\\DBAL\\PostgresTypes\\TextArrayType"
                 int_array: "Doctrine\\DBAL\\PostgresTypes\\IntArrayType"
+                real_array: "Doctrine\\DBAL\\PostgresTypes\\RealArrayType"
             mapping_types:
                 _text: text_array
                 _int4: int_array
@@ -30,5 +31,7 @@ Provides Doctrine Type classes for common postgres types
 
     Type::addType('text_array', "Doctrine\\DBAL\\PostgresTypes\\TextArrayType");
     Type::addType('int_array', "Doctrine\\DBAL\\PostgresTypes\\IntArrayType");
+    Type::addType('real_array', "Doctrine\\DBAL\\PostgresTypes\\RealArrayType");
+
 ```
 
