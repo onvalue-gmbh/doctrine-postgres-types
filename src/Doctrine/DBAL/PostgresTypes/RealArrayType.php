@@ -13,7 +13,7 @@ use Doctrine\DBAL\Types\Type;
 /**
  * Only supports single dimensional arrays like real[].
  */
-class IntArrayType extends Type
+class RealArrayType extends Type
 {
     /**
      * {@inheritdoc}
