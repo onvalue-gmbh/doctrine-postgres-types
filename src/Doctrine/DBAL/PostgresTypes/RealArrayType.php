@@ -52,4 +52,12 @@ class RealArrayType extends Type
     {
         return 'real[]';
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function requiresSQLCommentHint(AbstractPlatform $platform)
+    {
+        return true;
+    }
 }
